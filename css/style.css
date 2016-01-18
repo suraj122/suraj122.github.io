@@ -1,0 +1,101 @@
+body{
+	background-color: #e0fb55;
+	font-family: arial;
+}
+
+*{
+	margin:0;
+	padding:0;
+}
+#wrapper{
+	border: 0px solid;
+	border-radius: 5px;
+	width: 970px;
+	margin: auto;
+	padding: 10px;
+	background-color: white;
+	margin-bottom: 20px;
+}
+#header{
+	border: 0px solid;
+	width: 100%;
+}
+#header ul{
+	list-style-type: none;
+}
+#header ul li{
+	border:0px solid;
+	color: white;
+	background-color: #d9f256;
+	float: left;
+	width: 240px;
+	text-align: center;
+	height: 30px;
+	line-height:30px;
+}
+#header ul li a{
+	text-decoration: none;
+	color: white;
+}
+#header ul li:hover{
+	background-color: black;
+}
+#image{
+
+}
+#bodypart{
+	border:0px solid;
+	margin-top: 10px;
+}
+#bodyleft{
+	border: 0px solid;
+	float: left;
+	width: 270px;
+} 
+#bodyleft ul {
+	list-style-type: none;
+}
+#bodyleft ul li a{
+	text-decoration: none;
+	color: black;
+}
+#bodyleft h2{
+	text-decoration: none;
+	color: blue;
+	background-color: #d9f256;
+	padding: 4px;
+}
+#bodyleft ul li{
+	border-bottom: 1px dotted;
+	padding-left: 5px;
+	height: 30px;
+	line-height: 30px;
+}
+#bodyleft ul li a:hover{
+	color:red;
+}
+#bodyright{
+	border: 1px solid #dee1d1;
+	float: left;
+	width: 680px;
+	margin-left: 10px;
+	
+}
+#bodyright h2{
+	color: blue;
+	background-color: #d9f256;
+	padding: 5px;
+
+}
+#bodyright p{
+	padding: 7px;
+	text-align: justify;
+}
+#footer{
+	border: 0px solid;
+	margin-top: 5px;
+	color: black;
+	background-color: #c6c7be;
+	padding: 5px;
+	font-size: 15px;
+}
