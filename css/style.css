@@ -40,8 +40,15 @@ body{
 #header ul li:hover{
 	background-color: black;
 }
-#image{
-
+.image{
+	position: relative;
+	width: 100%;
+}
+.image h2{
+	position: absolute;
+	top:200px;
+	left: 0;
+	width: 100%
 }
 #bodypart{
 	border:0px solid;

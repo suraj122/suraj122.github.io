@@ -1,48 +1,57 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="utf-8" />
+		<meta charset="utf-8">
 		<title>sj.com</title>
-		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css"/>
+		<link rel="stylesheet" type="text/css" href="css/sj.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+		<link href='https://fonts.googleapis.com/css?family=Ubuntu:500' rel='stylesheet' type='text/css'>
 	</head>
 	<body>
 		<div id="wrapper">
-			<div id="header">
-				<ul>
+			<div class="header">
+				<ul class="navbar">
 					<li><a href="#">HOME</a></li>
-					<li><a href="#">ABOUT US</a></li>
-					<li><a href="#">SERVICES</a></li>
-					<li><a href="#">CONTACT US</a></li>
+					<li><a href="#about">ABOUT</a></li>
+					<li><a href="#">PORTFOLIO</a></li>
+					<li><a href="#">BLOG</a></li>
+					<li><a href="#">CONTACT</a></li>
 				</ul>
-				<div id="image">
-					<image src="images/sj.jpg" height="450" width="960" />
-				</div><!--end of image-->
-			</div> <!-- end of header-->
+				<ul class="social-media">
+					<li>
+						<a href="https://www.facebook.com/Surajlvs" target="_blank"><i class="fa fa-facebook"></i></a>
+					</li>
+					<li><a href="https://plus.google.com/u/0/115640832176674580559" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+					<li><a href="https://twitter.com/suraj_lvs" target="_blank"><i class="fa fa-twitter"></i></a></li>
+					<li><a href="https://www.instagram.com/surajlvs/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+				</ul>
+			</div><!--end of header-->
+			<div class="main-image">
+				<img class="profile-image" src="images/sjj.jpg"/>
+			</div>
+			<h1>Suraj Kumar</h1>
+				<div id="about">
+					<div class="my-story">
+					 	<h2>MY STORY</h2><br/>
+							<p>Hello, i am a front end developer. I hold a bachlor of engineering degree in "Electrical & electronics" from R.G.P.V University.</p>
+							<p>I have done my schooling from sainik school gopalganj.</p>
+					</div>
+					<div class="pi">
+							<h2>PERSONAL INFORMATION</h2>
+								<ul>
+									
+										<li><pre>Name:	Suraj Kumar</pre></li>
+										<li><pre>Age:	22</pre></li>
+										<li><pre>Mob:	7415220198</pre></li>
+										<li><pre>Email:	122suraj0@gmail.com</pre></li>
+										<li><pre>Add:	Bihar,India</pre></li>
+									
+								</ul>
+					</div>
+				</div>
+			</div><!--end of wrapper-->
 
-			<div id="bodypart">
-				<div id="bodyleft">
-					<h2>Services</h2>
-					<ul>
-						<li><a href="#">Cars</a></li>
-						<li><a href="#">Bikes</a></li>
-						<li><a href="#">Trucks</a></li>
-						<li><a href="#">Buses</a></li>
-						<li><a href="#">Music Systems</a></li>
-						<li><a href="#">Spare Parts</a></li>
-						
-					</ul>
-				</div><!--end of bodyleft-->
-				<div id="bodyright">
-					<h2>Welcome To Our Website</h2>
-						<p>A car is a wheeled, self-powered motor vehicle used for transportation. Most definitions of the term specify that cars are designed to run primarily on roads, to have seating for one to eight people, to typically have four wheels, and to be constructed principally for the transport of people rather than goods.[2][3] The year 1886 is regarded as the birth year of the modern car. In that year, German inventor Karl Benz built the Benz Patent-Motorwagen. Cars did not become widely available until the early 20th century. </p>
-						<p>One of the first cars that was accessible to the masses was the 1908 Model T, an American car manufactured by the Ford Motor Company. Cars were rapidly adopted in the United States of America, where they replaced animal-drawn carriages and carts, but took much longer to be accepted in Western Europe and other, less developed, parts of the world.</p>
-				</div><!--end of bodyright-->
-				<br clear="all"/>
-			</div><!--end of bodypart-->
-			<br clear="all" />
-			<div id="footer"> 
-				copyrights &copy; sj.com
-			</div><!--end of footer-->
-		</div> <!-- end of wrapper -->
-	</body>
+				
+		</body>
 </html>

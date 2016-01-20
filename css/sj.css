@@ -1,0 +1,97 @@
+body{
+	background-image: url("RLQNm.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+#wrapper{
+	border: 0px;
+	max-width: 1024px;
+	margin:auto;
+	margin-top: 30px;
+}
+
+.header ul li{
+	list-style-type: none;
+	border: 0px solid;
+	margin: auto;
+	padding: 5px;
+	float: left;
+	text-align: center;
+}
+.header ul li a{
+	color: white;
+	text-decoration: none;
+}
+.header ul li a:hover{
+	/*background-color: black;*/
+	color: black;
+}
+.social-media{
+	float: right;
+	margin: auto;
+	padding: 8px;
+}
+.navbar li a{
+	font-weight: bold;
+	color: blue;
+	display: inline-block;
+	padding: 8px;
+
+}
+.social-media li a{
+	margin-right: 10px;
+}
+
+.main-image{
+	text-align: center;
+	margin: auto;
+}
+
+.profile-image{
+	margin: 2em 30%;
+	max-width: 40%;
+	height: 200px;
+	border: 1px grey solid;
+	border-radius: 80px;
+}
+
+h1{
+	margin-top: 0px;
+	text-align: center;
+	color: #aae5ee;
+	font-weight: bolder;
+}
+#about{
+	margin-top: 50px;
+	border: 0px solid;
+}
+#about .my-story{
+	max-width: 50%;
+	display: inline-block;
+	float: left;
+}
+#about .my-story h2{
+	color:#aae5ee;
+	padding: 5px;
+}
+#about p{
+	text-align: left;
+	color: white;
+	padding-top: 0px;
+}
+#about .pi{
+	max-width: 50%;
+	display: inline-block;
+	float: right;
+}
+#about .pi h2{
+	color:#aae5ee;
+}
+#about .pi ul{
+	list-style-type: none;
+}
+#about .pi ul li{
+	color: white;
+}
