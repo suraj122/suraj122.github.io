@@ -2,13 +2,8 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>Suraj Kumar</title>
+    <title>Suraj Kumar | Contact</title>
     <link rel="stylesheet" href="assets/stylesheet/style.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap"
-      rel="stylesheet"
-    />
   </head>
   <body>
     <header class="navbar">
@@ -24,20 +19,36 @@
       </nav>
     </header>
     <main>
-      <section class="banner">
-        <article class="banner-wrapper">
-          <h1>A Front End Developer with a keen eye for UI details.</h1>
-          <h3>
-            Currently mentoring at
-            <a
-              href="https://altcampus.school"
-              target="_blank"
-              class="inner-link"
-              >AltCampus</a
-            >, helping people to learn Unix, Git, HTML, and CSS.
-          </h3>
-          <a class="btn" href="about.html">About Me!</a>
-        </article>
+      <section class="contact banner">
+        <form class="contact-form">
+          <legend>Get in touch with me!</legend>
+          <div>
+            <fieldset class="form-group">
+              <div>
+                <label for="">Name</label>
+                <input type="text" placeholder="Enter Your Name" name="name" />
+              </div>
+              <div>
+                <label for="">Email</label>
+                <input
+                  type="text"
+                  placeholder="Enter Your Email"
+                  name="email"
+                />
+              </div>
+            </fieldset>
+            <fieldset>
+              <label for="">Message</label>
+              <textarea
+                name="message"
+                id=""
+                rows="8"
+                placeholder="Enter Your Message!"
+              ></textarea>
+            </fieldset>
+            <input class="btn" type="submit" value="Submit" />
+          </div>
+        </form>
         <div class="bg"></div>
       </section>
     </main>
